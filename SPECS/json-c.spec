@@ -1,5 +1,5 @@
 Name:		json-c
-Version:	0.9
+Version:	0.10
 Release:	1%{?dist}
 Summary:	A JSON implementation in C
 Group:		Development/Libraries
@@ -72,6 +72,9 @@ rm -rf %{buildroot}
 %doc doc/html/*
 
 %changelog
+* Mon Jul 01 2014 Julio Gonzalez Gil <git@juliogonzalez.es> - 0.10-1
+- Built for Telefonica I+D
+
 * Mon Jun 30 2014 Julio Gonzalez Gil <git@juliogonzalez.es> - 0.9-1
 - Rebuilt for Telefonica I+D
 

@@ -17,8 +17,8 @@ check_create_dir SRPMS
 
 
 
-if [ ! -f './SOURCES/json-c-0.9.tar.gz' ]; then
-  wget 'https://github.com/downloads/json-c/json-c/json-c-0.9.tar.gz' -O './SOURCES/json-c-0.9.tar.gz'
+if [ ! -f './SOURCES/json-c-0.10.tar.gz' ]; then
+  wget 'https://github.com/downloads/json-c/json-c/json-c-0.10.tar.gz' -O './SOURCES/json-c-0.10.tar.gz'
 fi
 rpmbuild --define "_topdir `pwd`" -ba 'SPECS/json-c.spec'
 echo Your packages are available at $PWD/RPMS

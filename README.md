@@ -44,7 +44,7 @@ Build the RPMs:
 
 And install:
 
-    rpm -Uvh RPMS/$HOSTTYPE/json-c-0.9-1.*.$HOSTTYPE.rpm
+    rpm -Uvh RPMS/$HOSTTYPE/json-c-0.10-1.*.$HOSTTYPE.rpm
 
 You may use the following command:
 
